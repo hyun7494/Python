@@ -1,4 +1,4 @@
-from sub1.Account.import Account
+from sub1.Account import Account
 
 class StockAccount(Account):
     def __init__(self, bank, id, name, balance, stock, amount, price):
@@ -8,7 +8,7 @@ class StockAccount(Account):
         self.amount = amount
         self.price = price
         
-    def sell(self, amount, price);
+    def sell(self, amount, price):
         self.__balance += amount
 
     def buy(self, amount, price):
