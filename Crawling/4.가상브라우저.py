@@ -11,7 +11,6 @@ from selenium.webdriver.common.by import By
 # 가상브라우저 실행
 chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
-
 browser = webdriver.Chrome('./chromedriver.exe', options=chrome_options)
 
 # 네이버 이동
